@@ -50,3 +50,9 @@ function resetGame() {
   currentJugador = 'X';
   document.getElementById('winner-message').textContent = '';
 }
+
+
+// esta es una prueba de modificacion para
+//practicar con github
+//Carlos: si ves este mensaje
+// borralo y hace el merge para corregir este codigo.
