@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>TA-TE-TI</title>
+</head>
+<body>
+  <div class="game">
+    <h1>TA-TE-TI</h1>
+    <p>¡ Atrevete, juega y gana !</p>
+    <div class="board">
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+    <div id="winner-message"></div> <!-- New element for displaying winner message -->
+    <button class="reset-button" onclick="resetGame()">Reiniciar</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
